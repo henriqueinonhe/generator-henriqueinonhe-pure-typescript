@@ -14,8 +14,6 @@ module.exports = class extends Generator {
     this.fs.copy(this.templatePath("**"),
                  this.destinationRoot(),
                  { globOptions: {dot: true}});
-
-
   }
 
   install() {

@@ -13,7 +13,7 @@
     "yeoman-generator"
   ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "yeoman-generator": "^4.11.0"
   }
