@@ -1,0 +1,29 @@
+{
+  "jest": {
+      "roots": [
+          "./tests"
+      ],
+      "transform": {
+          "^.+\\.[jt]sx?$": "ts-jest"
+      },
+      "collectCoverage": true,
+      "collectCoverageFrom": [
+          "./src/**/*.ts"
+      ]
+  },
+  "scripts": {
+      "test": "jest --runInBand",
+      "build": "tsc -p .",
+      "docs": "typedoc"
+  },
+  "devDependencies": {
+      "@types/jest": "^25.2.3",
+      "@typescript-eslint/eslint-plugin": "^2.34.0",
+      "@typescript-eslint/parser": "^2.34.0",
+      "eslint": "^7.6.0",
+      "jest": "^25.5.4",
+      "ts-jest": "^25.5.1",
+      "typedoc": "^0.17.8",
+      "typescript": "^3.9.7"
+  }
+}

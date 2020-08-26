@@ -1,0 +1,20 @@
+{
+  "name": "generator-henriqueinonhe-pure-typescript",
+  "version": "1.0.0",
+  "description": "A cleaner way to bootstrap pure typescript projects according to my personal preferences other than copy/paste.",
+  "main": "index.js",
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^4.11.0"
+  }
+}
